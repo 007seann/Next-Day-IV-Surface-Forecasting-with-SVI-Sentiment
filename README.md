@@ -68,7 +68,7 @@ Sentiment/flow features provide **situational** gains (median slightly positive 
 - **Transforms + guards** are essential: they stabilise forecasting and keep smiles valid.
 - **Maturity interpolation** avoids sparse-tenor artefacts and enables daily OOS scoring.
 - **Evaluation choices matter:** ATM-weighted loss tames wing noise; DM tests prevent over-claiming small differences.
-- **Sentiment is conditional:** helps in **news-heavy** regimes, baseline dominates in quiet markets.
+- **Sentiment is conditional:** helps in **buy-side analy's opinions-heavy** regimes, baseline dominates in quiet markets.
 
 ---
 
