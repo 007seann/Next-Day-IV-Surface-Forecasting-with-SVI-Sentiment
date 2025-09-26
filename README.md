@@ -28,14 +28,17 @@
 
 **Figure 1 — SVI Surface (single day).**
 Left-skewed equity smile; term structure flattens with maturity. The very short-dated edge touches a floor due to the **no-arb guard** preventing negative total variance (safety, not a modeling target).
-<img width="496" height="505" alt="SVI " src="https://github.com/user-attachments/assets/cba24a8c-b91b-462a-b7aa-21a3bf128281" />
+<img width="496" height="505" alt="SVI " src="https://github.com/user-attachments/assets/81624764-3d3a-4db9-b8d8-b9acd495d0ff" />
+
 
 **Figure 2 — Interpolated Smiles (fixed maturities).**
 At $T=\{0.10,0.25,0.50,1.00\}$ years the smile is persistently left-skewed; longer maturities are smoother/flatter. The 0.10y curve shows the same protective floor at far wings.
-<img width="613" height="470" alt="SVI Smiles (interpolated)" src="https://github.com/user-attachments/assets/b5741ce0-2362-47a5-bfe0-36e01af32f7f" />
+<img width="613" height="470" alt="SVI Smiles (interpolated)" src="https://github.com/user-attachments/assets/b58bc960-270f-46c0-ae73-d9c97c5c690d" />
+
 
 **Figure 3 — Event Study (Δ ATM, Δ RR25, Δ BF25 around earnings).**
-<img width="844" height="547" alt="earning_event_study" src="https://github.com/user-attachments/assets/c95e2a1b-5973-4fd9-b35a-c0bb4f2f27a1" />
+<img width="844" height="547" alt="earning_event_study" src="https://github.com/user-attachments/assets/eba69644-3e65-4998-a564-dbe767aaa36a" />
+
 
 - **ΔATM** > 0 into $t=0$ (risk build-up), < 0 after $t=0$ (vol crush).
 - **ΔRR25** dips < 0 a few days pre-event → **puts richen** vs calls (more negative skew).
